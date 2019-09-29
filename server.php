@@ -2,6 +2,7 @@
 
 date_default_timezone_set("America/Sao_Paulo");
 header("Cache-Control: no-cache");
+header("Access-Control-Allow-Origin: *");
 header("Content-Type: text/event-stream\n\n");
 
 $counter = rand(1, 10);
